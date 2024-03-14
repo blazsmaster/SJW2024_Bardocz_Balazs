@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+
 header {
     height: 400px;
     background-image: url('/img/balaton_bg.jpg');
     background-repeat: no-repeat;
-    object-fit:cover;
+    object-fit: cover;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -12,11 +14,14 @@ header {
 
 /* main {
 
-}
+}*/
 
 h1 {
-
-} */
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 10px black;
+    font-size: 3rem;
+}
 
 nav {
     background-color: #06435f;
@@ -28,4 +33,45 @@ nav li:active {
 
 div#tartalom {
     display: grid;
+}
+
+h1,
+h2,
+footer {
+    font-family: "Marhey", sans-serif;
+}
+
+h2 {
+    text-decoration: underline wavy;
+    color: #1283b9;
+    font-variant: small-caps;
+}
+
+.img-arnyek {
+    box-shadow: #06435f 1px 1px 3px;
+}
+
+th {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 3px #06435f;
+}
+
+.elsocim {
+    background: #000;
+}
+
+.tablacim {
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 1.5rem;
+    }
 }
