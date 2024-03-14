@@ -62,12 +62,21 @@ table {
     box-shadow: 1px 1px 3px #06435f;
 }
 
-.elsocim {
-    background: #000;
+table th {
+    background-color: #06435f;
+    font-family: "Marhey", sans-serif;
+    color: white;
 }
 
-.tablacim {
-    text-align: center;
+table th,
+table tr td {
+    padding: 10px;
+}
+
+.kepek {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 @media (max-width: 992px) {
